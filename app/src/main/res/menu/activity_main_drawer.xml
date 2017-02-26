@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="RecyclerView" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="RecyclerView+CardView" />
+        <item
+            android:id="@+id/nav_camera2"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Recyclerview+GridView" />
+        <item
+            android:id="@+id/nav_gallery2"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Recyclerview+GridView+CardView" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="ImageLoader" />
+        <item
+            android:id="@+id/nav_slideshow2"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Volley" />
+        <item
+            android:id="@+id/nav_baiduMap"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="BaiduMap" />
+        <item
+            android:id="@+id/nav_baiduLoc"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="BaiduLoc" />
+        <item
+            android:id="@+id/nav_falls"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="RecyclerViewFalllll" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="发送" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:layout_centerHorizontal="true"
+        android:text="get" />
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/get"
+        android:layout_centerHorizontal="true"
+        android:text="post" />
+
+
+    <Button
+        android:id="@+id/imagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post"
+        android:layout_centerHorizontal="true"
+        android:text="image" />
+
+    <Button
+        android:id="@+id/imageLoader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagebtn"
+        android:layout_centerHorizontal="true"
+        android:text="loader" />
+
+    <Button
+        android:id="@+id/netimagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLoader"
+        android:layout_centerHorizontal="true"
+        android:text="net" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/netimagebtn"
+        android:layout_centerHorizontal="true" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/netimageview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
